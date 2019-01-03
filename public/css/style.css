@@ -2188,3 +2188,14 @@ textarea.input {
     margin-top: 10px;
   }
 }
+#user-register-form {
+	text-align:center;
+}
+#user-register-form h1:nth-child(1) {
+	color:#fff;
+	border:1px solid #000;
+	background:#000;
+}
+#user-register-form h1:nth-child(2) {
+	color:yellow;
+}
