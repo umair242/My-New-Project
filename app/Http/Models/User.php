@@ -9,18 +9,18 @@ class User extends Model {
 
     public static function addToUser($params) {
 
-//        $rules  = [
-//            'name' => 'required|min:3|max:10',
-//            'user_name' => 'required|alpha_num|min:3|max:10|unique:eshop_users',
-//            'email' => 'required|email',
-//            'password' => 'required|min:5',
-//            'retype_password' => 'required|same:password',
-//            'gender' => 'required|min:4',   
-//            'dob' => 'required|date',   
-//            'country' => 'required',   
-//            'image' => 'mimes:jpg,jpeg,png',   
-//        ];
-//        
+        $rules  = [
+            'name' => 'required|min:3|max:10',
+            'user_name' => 'required|alpha_num|min:3|max:10|unique:eshop_users',
+            'email' => 'required|email',
+            'password' => 'required|min:5',
+            'retype_password' => 'required|same:password',
+            'gender' => 'required|min:4',   
+            'dob' => 'required|date',   
+           'country' => 'required',   
+           'image' => 'mimes:jpg,jpeg,png',   
+        ];
+        
         $final_data = array();
         $inserUserData = (array) $params;
 //        dd($inserUserData);

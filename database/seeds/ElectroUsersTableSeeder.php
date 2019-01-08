@@ -15,12 +15,12 @@ class ElectroUsersTableSeeder extends Seeder {
             DB::table('electro_users')->insert([
                 'name' => str_random(10),
                 'user_name' => str_random(10),
-                'email' => str_random(10) . '@gmail.com',
+                'email' => str_random(10) ,
                 'password' => bcrypt('secret'),
-                'gender' => 'male',
+                'gender' => gender(),
                 'dob' => time(),
-                'country' => "Pakistan",
-                'image' => "abc.jpg",
+                'country' => country(),
+                'image' => image(),
             ]);
         }
     }
