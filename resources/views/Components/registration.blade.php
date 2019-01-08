@@ -1,7 +1,5 @@
 <div id="user-register-form">
 <h1>User Registration</h1>
-
-
 <h2>{{!empty($registered_message) ? $registered_message : ''}}</h2>
 {!! Form::open(['url' => '/register', 'files' => true]) !!}
     <div class="form-group">
