@@ -14,6 +14,7 @@
 */
 
 Route::get('/', 'HomePageController@getHomePage');
+Route::get('/home', 'HomePageController@getHomePage');
 Route::get('/register', 'UserController@getRegistrationPage');
 Route::post('/register', 'UserController@postRegistrationPage');
 
@@ -23,3 +24,5 @@ Route::get('/my-admin/add-products', 'ProductController@getAddProductsPage');
 Route::post('/my-admin/add-products', 'ProductController@postAddProductsPage');
 
 Route::post('/getSearchProducts', 'ProductController@getSearchProducts');
+
+

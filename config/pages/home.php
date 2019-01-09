@@ -39,8 +39,8 @@ return [
     ],
 
     'BodySection' => [
-        'body_new_products',
-        'body_hot_deals',
+      //  'body_new_products',
+      //  'body_hot_deals',
         'body_products'
     ],
     'FooterSection' => [
