@@ -6,5 +6,6 @@
      'Js4' =>  'js/nouislider.min.js',
      'Js5' =>  'js/jquery.zoom.min.js',
      'Js6' =>  'js/main.js',
+     'searchbar' =>  'js/searchbar.js',
      ]
      ?>

@@ -11,18 +11,19 @@ class ElectroUsersTableSeeder extends Seeder {
      * @return void
      */
     public function run() {
-        for ($a = 1; $a <= 100; $a++) {
-            DB::table('electro_users')->insert([
-                'name' => str_random(10),
-                'user_name' => str_random(10),
-                'email' => str_random(10) ,
-                'password' => bcrypt('secret'),
-                'gender' => gender(),
-                'dob' => time(),
-                'country' => country(),
-                'image' => image(),
-            ]);
-        }
+        // fake data in DB
+        //for ($a = 1; $a <= 1; $a++) {
+          //  DB::table('electro_users')->insert([
+            //    'name' => str_random(10),
+              //  'user_name' => str_random(10),
+              //  'email' => str_random(10) ,
+              //  'password' => bcrypt('secret'),
+              //  'gender' => gender(),
+              //  'dob' => time(),
+              //  'country' => country(),
+               // 'image' => image(),
+            //]);
+       // }
     }
 
 }

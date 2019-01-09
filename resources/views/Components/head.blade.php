@@ -15,24 +15,7 @@
 		<link type="text/css" rel="stylesheet" href="{{url($csskey)}}"/>
 	    @endforeach
 		<!-- Slick -->
-		@foreach($finalHeaderCssData as $name => $csskey)
-		<link type="text/css" rel="stylesheet" href="{{url($csskey)}}"/>
-		@endforeach
-		@foreach($finalHeaderCssData as $name => $csskey)
-		<link type="text/css" rel="stylesheet" href="{{url($csskey)}}"/>
-	    @endforeach
-		<!-- nouislider -->
-		@foreach($finalHeaderCssData as $name => $csskey)
-		<link type="text/css" rel="stylesheet" href="{{url($csskey)}}"/>
-	    @endforeach
-		<!-- Font Awesome Icon -->
-		@foreach($finalHeaderCssData as $name => $csskey)
-		<link rel="stylesheet" href="{{url($csskey)}}">
-	    @endforeach
-		<!-- Custom stlylesheet -->
-		@foreach($finalHeaderCssData as $name => $csskey)
-		<link type="text/css" rel="stylesheet" href="{{url($csskey)}}"/>
-	    @endforeach
+		
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>

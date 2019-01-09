@@ -17,6 +17,7 @@ return [
         'Js4',
         'Js5',
         'Js6',
+        'searchbar'
     ],
     
     'headSection' => [

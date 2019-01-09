@@ -11,7 +11,7 @@ class User extends Model {
 
         $rules  = [
             'name' => 'required|min:3|max:10',
-            'user_name' => 'required|alpha_num|min:3|max:10|unique:eshop_users',
+            'user_name' => 'required|alpha_num|min:3|max:10|unique:electro_users',
             'email' => 'required|email',
             'password' => 'required|min:5',
             'retype_password' => 'required|same:password',
