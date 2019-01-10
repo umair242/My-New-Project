@@ -12,12 +12,14 @@
     return view('welcome');
 });
 */
-
+//General
 Route::get('/', 'HomePageController@getHomePage');
 Route::get('/home', 'HomePageController@getHomePage');
 Route::get('/register', 'UserController@getRegistrationPage');
 Route::post('/register', 'UserController@postRegistrationPage');
 
+//Product Pages
+Route::get('/laptops', 'ProductPagesController@getLaptopPage');
 
 Route::get('/my-admin', 'AdminController@getHomePage');
 Route::get('/my-admin/add-products', 'ProductController@getAddProductsPage');

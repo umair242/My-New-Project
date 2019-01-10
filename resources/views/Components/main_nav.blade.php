@@ -5,13 +5,11 @@
 				<div id="responsive-nav">
 					<!-- NAV -->
 					<ul class="main-nav nav navbar-nav">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#">Hot Deals</a></li>
-						<li><a href="#">Categories</a></li>
-						<li><a href="#">Laptops</a></li>
-						<li><a href="#">Smartphones</a></li>
-						<li><a href="#">Cameras</a></li>
-						<li><a href="#">Accessories</a></li>
+						<li class="active"><a href="{{url('/home')}}">Home</a></li>
+						<li><a href="{{url('/laptops')}}">Laptops</a></li>
+						<li><a href="{{url('/Accessories')}}">Accessories</a></li>
+						<li><a href="{{url('/Smartphones')}}">Smartphones</a></li>
+						
 					</ul>
 					<!-- /NAV -->
 				</div>

@@ -5,32 +5,26 @@ return [
       /*  'Css1',
         'Css2',
         'Css3',
-        'Css4',
+        'Css',
         'Css5',
         'Css6',
         */
-        'AdmCss1',
-        'AdmCss2',
-        'AdmCss3'
+         
     ],
     
     'headerJs' => [
       /*  'Js1',
         'Js2',
         'Js3',
-        'Js4',
+        'Js',
         'Js5',
         'Js6',
         */
-        'AdmJs1',
-        'AdmJs2',
-        'AdmJs3',
-        'AdmJs4'
     ],
     
     'headSection' => [
-        'adm_head',
-       
+       // 'adm_head',
+        
     ],
     
     'HeaderSection' => [
@@ -60,13 +54,7 @@ return [
     ],
     
     'footerJs' => [
-      /*  'Js1',
-        'Js2',
-        'Js3',
-        'Js4',
-        'Js5',
-        'Js6',
-    */
+        
     ],
 ]
 ?>

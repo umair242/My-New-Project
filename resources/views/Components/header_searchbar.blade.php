@@ -3,10 +3,11 @@
 								<form>
 									<select class="input-select">
 										<option value="0">All Categories</option>
-										<option value="1">Category 01</option>
-										<option value="1">Category 02</option>
+										<option value="1">Laptops</option>
+										<option value="1">Accessories</option>
+										<option value="1">SmartPhones</option>
 									</select>
-									<input class="input" placeholder="Search here" onclick="event.preventDefault();getSearchProducts()">
+								<input class="input" placeholder="Search here" onclick="event.preventDefault();getSearchProducts()">
 									<button class="search-btn">Search</button>
 								</form>
 							</div>
