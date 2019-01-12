@@ -18,11 +18,11 @@ Route::get('/home', 'HomePageController@getHomePage');
 Route::get('/registration', 'UserController@getRegistrationPage');
 Route::post('/registration', 'UserController@postRegistrationPage');
 
-//Product Pages
-Route::get('/laptops', 'ProductPagesController@getLaptopPage');
+
 
 Route::get('/dashboard', 'AdminController@getHomePage');
-Route::get('/login', 'AdminController@login');
+Route::get('/admin', 'AdminController@login');
+Route::match(['get','post'],'/admin', 'AdminController@login');
 Route::get('/dashboard/add-products', 'ProductController@getAddProductsPage');
 Route::post('/dashboard/add-products', 'ProductController@postAddProductsPage');
 
