@@ -15,16 +15,21 @@
 //General
 Route::get('/', 'HomePageController@getHomePage');
 Route::get('/home', 'HomePageController@getHomePage');
-Route::get('/register', 'UserController@getRegistrationPage');
-Route::post('/register', 'UserController@postRegistrationPage');
+Route::get('/registration', 'UserController@getRegistrationPage');
+Route::post('/registration', 'UserController@postRegistrationPage');
 
 //Product Pages
 Route::get('/laptops', 'ProductPagesController@getLaptopPage');
 
-Route::get('/my-admin', 'AdminController@getHomePage');
-Route::get('/my-admin/add-products', 'ProductController@getAddProductsPage');
-Route::post('/my-admin/add-products', 'ProductController@postAddProductsPage');
+Route::get('/dashboard', 'AdminController@getHomePage');
+Route::get('/login', 'AdminController@login');
+Route::get('/dashboard/add-products', 'ProductController@getAddProductsPage');
+Route::post('/dashboard/add-products', 'ProductController@postAddProductsPage');
 
 Route::post('/getSearchProducts', 'ProductController@getSearchProducts');
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

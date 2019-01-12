@@ -55,11 +55,11 @@ class ProductController extends VCController {
             mkdir(public_path('/products'));
         }
 
-        if (!is_dir(public_path('/products' . $request->get('p_name')))) {
-            mkdir(public_path('/products' . $request->get('p_name')));
+        if (!is_dir(public_path('/products/' . $request->get('p_name')))) {
+            mkdir(public_path('/products/' . $request->get('p_name')));
         }
 
-        $user_uploading_path = public_path('/products' . $request->get('p_name'));
+        $user_uploading_path = public_path('/products/' . $request->get('p_name'));
 
 //        $watermark = Image::make(public_path('/img/wmark.png'));
 //        $image_process->resize(200, 100);

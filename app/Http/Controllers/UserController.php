@@ -14,7 +14,7 @@ class UserController extends VCController {
     public function getRegistrationPage(Request $request) {
 //        dd($request->all());
 
-               return $this->buildPages('register');
+               return $this->buildPages('registration');
     }
 
     public function getLogin() {
@@ -133,7 +133,7 @@ class UserController extends VCController {
 //        dd($user_result);
         $this->viewData['registered_message'] = !empty($user_result->message) ? $user_result->message : '';
 
-        return $this->buildPages('register');
+        return $this->buildPages('registration');
     }
 
 }

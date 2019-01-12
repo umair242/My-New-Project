@@ -39,12 +39,12 @@ return [
     ],
 
     'BodySection' => [
-      //  'body_new_products',
-      //  'body_hot_deals',
+      'body_new_products',
+       'body_hot_deals',
         'body_products'
     ],
     'FooterSection' => [
-     //   'newsletter',
+        'newsletter',
         'top_footer',
         'bottom_footer',
     ],

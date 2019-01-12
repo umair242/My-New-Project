@@ -33,7 +33,7 @@
 					<div class="col-md-4 col-xs-6">
 						<div class="shop">
 							<div class="shop-img">
-								<img src="./img/Mobile-Slide.png" alt="">
+								<img src="./img/gettyimages-490626518.jpg" alt="">
 							</div>
 							<div class="shop-body">
 								<h3>Smartphones<br>Collection</h3>

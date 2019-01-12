@@ -1,6 +1,6 @@
 <h1>Add Products</h1>
 <h2>{{!empty($message) ? $message : ''}}</h2>
-{!! Form::open(['url' => '/my-admin/add-products', 'files' => true]) !!}
+{!! Form::open(['url' => '/dashboard/add-products', 'files' => true]) !!}
 <div class="form-group">
     {{ Form::label('Product Name:', null) }}
     {{ Form::text('p_name', '', ['placeholder' => '']) }}
